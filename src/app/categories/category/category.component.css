@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+ #left {
+    top: calc(50% - 25px);
+    left: 0;
+    z-index: 1;
+}
+
+#right {
+    top: calc(50% - 25px);
+    right: 0;
+    z-index: 1;
+}
+
+app-choice {
+    margin: 5px 5px;
+    width: calc(20% - 10px);
+    max-width: 150px;
+    z-index: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr { 
+    margin: 0;
+}

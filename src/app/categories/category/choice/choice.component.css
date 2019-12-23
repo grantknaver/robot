@@ -1,0 +1,29 @@
+  .mat-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ::ng-deep .mat-card-header-text {
+    margin: 0 !important; /* Overrides Material styling */
+  }
+
+  .mat-card-title {
+    margin: 0 0 10px 0 !important; /* Overrides Material styling */
+    font-size: 10px;
+  }
+  
+  #imgContainer {
+    width: 100%;
+    background-color: blue;
+  }
+
+  .mat-card-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    margin: 0 !important; /* Overrides Material styling */
+    width: 100%;
+  }
+
+  .mat-card-content {
+    margin: 10px 0;
+    font-size: .5em;
+  }
