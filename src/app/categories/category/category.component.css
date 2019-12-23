@@ -2,14 +2,6 @@ h1 {
     margin: 0;
 }
 
-/* #container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: yellow;
-    position: relative;
-} */
-
 .container-fluid {
     display: flex;
     justify-content: center;
