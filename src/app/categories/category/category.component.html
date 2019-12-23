@@ -1,5 +1,5 @@
 <h1 (click)="expand()">{{ category.categoryTitle }}</h1>
-<div *ngIf="expanded" id="container">
+<div *ngIf="expanded" class="container-fluid">
     <button id="left"><i class="material-icons">keyboard_arrow_left</i></button>
     <app-choice *ngFor="let choice of choices, let index = index" [choice]="choice"></app-choice>
     <button id="right"><i class="material-icons">keyboard_arrow_right</i></button>

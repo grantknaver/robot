@@ -1,7 +1,9 @@
-#container {
+/* #container {
     width: 100%;
     background-color: green;
-}
+} */
 
-app-category {
+.container-fluid {
+    width: 100%;
+    background-color: green;
 }

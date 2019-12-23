@@ -1,7 +1,18 @@
-#container {
+h1 {
+    margin: 0;
+}
+
+/* #container {
     display: flex;
     justify-content: center;
     width: 100%;
+    background-color: yellow;
+    position: relative;
+} */
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
     background-color: yellow;
     position: relative;
 }
@@ -30,10 +41,6 @@ app-choice {
     width: calc(20% - 10px);
     max-width: 150px;
     z-index: 0;
-}
-
-h1 {
-    margin: 0;
 }
 
 hr { 

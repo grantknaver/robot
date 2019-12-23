@@ -1,7 +1,14 @@
-#container {
+/* #container {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: purple;
+} */
+
+.container-fluid {
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
     background-color: purple;
 }
 

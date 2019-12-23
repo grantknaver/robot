@@ -1,14 +1,14 @@
-  .mat-card {
+  /* .mat-card {
     display: flex;
     flex-direction: column;
   }
 
   ::ng-deep .mat-card-header-text {
-    margin: 0 !important; /* Overrides Material styling */
+    margin: 0 !important; 
   }
 
   .mat-card-title {
-    margin: 0 0 10px 0 !important; /* Overrides Material styling */
+    margin: 0 0 10px 0 !important;
     font-size: 10px;
   }
   
@@ -19,11 +19,20 @@
 
   .mat-card-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    margin: 0 !important; /* Overrides Material styling */
+    margin: 0 !important;
     width: 100%;
   }
 
   .mat-card-content {
     margin: 10px 0;
     font-size: .5em;
+  } */
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    cursor: pointer;
   }
