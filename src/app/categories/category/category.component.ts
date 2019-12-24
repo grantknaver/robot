@@ -14,6 +14,7 @@ export class CategoryComponent implements OnInit {
   categoryTitle: string;
   choices: Choice[];
   expanded: boolean;
+  choiceSelected: number;
 
   constructor() { }
 
@@ -21,10 +22,23 @@ export class CategoryComponent implements OnInit {
     this.categoryTitle = this.category.categoryTitle;
     this.choices = this.category.categoryChoices;
     this.expanded = false;
+    this.choiceSelected = 0;
   }
 
   expand() {
     this.expanded = !this.expanded;
+  }
+
+  changeSelection(direction: string) {
+    if (direction === 'down') {
+      if (this.choiceSelected !== 0) {
+        this.choiceSelected--;
+      }
+    } else {
+      if (this.choiceSelected !== this.choices.length - 1) {
+        this.choiceSelected++;
+      }
+    }
   }
 
 }
