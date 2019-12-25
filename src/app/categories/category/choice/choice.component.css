@@ -1,9 +1,41 @@
-  .card {
-    display: flex;
-    flex-direction: column;
-    z-index: 0;
-    cursor: pointer;
-  }
+:host {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 
-  
+/* --- CUSTOM --- */
+
+/* .card {
+  display: flex;
+  z-index: 0;
+  cursor: pointer;
+  width: 100%;
+  background-color: black;
+} */
+
+/* --- CAROUSEL --- */
+
+.card {
+  width: 50%;
+  max-width: 200px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow:  5px 5px 5px black, -5px 5px 5px black, 190px 2px 0 #ebebeb, 192px 5px 10px black, -190px 2px 0 #ebebeb, -192px 5px 10px black;
+  margin: 2vh 2vw;
+}
+
+img {
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.card-text {
+  min-height: 100px;
+}
+
 

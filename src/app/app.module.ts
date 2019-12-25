@@ -8,6 +8,7 @@ import { CategoryComponent } from './categories/category/category.component';
 import { ChoiceComponent } from './categories/category/choice/choice.component';
 import { CategoriesService } from '../app/services/categories.service';
 import { ChoiceStylingDirective } from './diretives/choice-border.directive';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ChoiceStylingDirective } from './diretives/choice-border.directive';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [CategoriesService],
   bootstrap: [AppComponent]

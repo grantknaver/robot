@@ -1,4 +1,6 @@
-<div class="card" 
+<!--- CUSTOM --->
+
+<!-- <div class="card" 
   tabindex="0"
   (click)="useChoice()" 
   appChoiceStyling
@@ -8,4 +10,15 @@
       <h5 class="card-title">{{ choice.choiceTitle }}</h5>
       <p class="card-text">{{ choice.choiceDescription }}</p>
     </div>
+</div> -->
+
+<!--- CAROUSEL --->
+
+<div class="card" >
+  <div class="card-body">
+    <h5 class="card-title">{{choiceInfo.choice.choiceTitle}}</h5>
+    <p class="card-text">{{choiceInfo.choice.choiceDescription}}</p>
+    <img [src]="choiceInfo.choice.choiceImg" alt="">
+  </div>
 </div>
+

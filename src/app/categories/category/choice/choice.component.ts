@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output , EventEmitter} from '@angular/core';
 
 // Models
 import { Choice } from '../../../models/choice.model';
@@ -10,26 +10,18 @@ import { Choice } from '../../../models/choice.model';
 })
 export class ChoiceComponent implements OnInit {
    @Input() choiceInfo: any;
-   @Input() choiceSelected: number;
-   choice: Choice;
-   choiceTitle: string;
-   choiceDescription: string;
-   choiceImg: string;
+  //  @Input() choiceSelected: number;
+  //  choice: Choice;
+  //  choiceTitle: string;
+  //  choiceDescription: string;
+  //  choiceImg: string;
 
-  constructor(
-    // private router: Router
-    ) {
+  constructor() {}
 
+  ngOnInit() {}
 
-  }
-
-  ngOnInit() {
-    this.choice = this.choiceInfo.choice;
-  }
-
-  useChoice() {
-    if (this.choiceInfo.choiceIndex === this.choiceSelected) {
-      // this.router.navigate([]);
-    }
-  }
+  // useChoice() {
+  //   if (this.choiceInfo.choiceIndex === this.choiceSelected) {
+  //   }
+  // }
 }

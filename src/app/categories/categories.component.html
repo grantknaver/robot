@@ -1,5 +1,7 @@
 <div class="container-fluid">
-    <app-category  *ngFor="let category of categories;" [category]="category"></app-category>
+    <app-category  *ngFor="let category of categories,  let i = index" 
+    [category]="category"
+    [currentCategory]="i"></app-category>
 </div>
 
 

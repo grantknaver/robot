@@ -8,6 +8,8 @@ import {catchError, map} from 'rxjs/operators';
 })
 export class CategoriesService {
   callUrl: string;
+  categoryExpanded: number;
+  expandedArray: {index: number, expanded: boolean}[] = [];
 
   constructor(
     // private http: HttpClient
@@ -47,27 +49,27 @@ export class CategoriesService {
           {
             choiceTitle: 'choiceTitle1',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription1'
+            choiceDescription: 'choiceDescription1 kjdsfjslfkjdslkfjslkdjflkdsjflkdsjflkdsjflkdsjf'
           },
           {
             choiceTitle: 'choiceTitle2',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription2'
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription2 ksdjflkjdslfkjdslkfjdslkjflkdsjflkdsjflkdsjf'
           },
           {
             choiceTitle: 'choiceTitle3',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription3'
+            choiceDescription: 'sdlkfjlksdjflksdjflksdjflkdsjflkdsjflkdsjflksjflksdfj'
           },
           {
             choiceTitle: 'choiceTitle1',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription1'
+            choiceDescription: 'choiceDescription1 slkdfjlkdsjfjdslkfds sdfjlkdsjflkdsjflkdsjflkdsjf'
           },
           {
             choiceTitle: 'choiceTitle2',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription2'
+            choiceDescription: 'choiceDescription2 sdifjlksdjfksdjfkdsjfk'
           }
         ]
       },
