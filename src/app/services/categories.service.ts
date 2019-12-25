@@ -48,28 +48,28 @@ export class CategoriesService {
         categoryChoices: [
           {
             choiceTitle: 'choiceTitle',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription1 kjdsfjslfkjdslkfjslkdjflkdsjflkdsjflkdsjflkdsjf'
-          },
-          {
-            choiceTitle: 'choiceTitle1',
             choiceImg: '../../assets/example.jpg',
-            choiceDescription: 'choiceDescription2 ksdjflkjdslfkjdslkfjdslkjflkdsjflkdsjflkdsjf'
+            choiceDescription: 'choiceDescription'
           },
           {
-            choiceTitle: 'choiceTitle2',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'sdlkfjlksdjflksdjflksdjflkdsjflkdsjflkdsjflksjflksdfj'
+            choiceTitle: 'choiceTitle 2',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 2'
           },
           {
-            choiceTitle: 'choiceTitle3',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription1 slkdfjlkdsjfjdslkfds sdfjlkdsjflkdsjflkdsjflkdsjf'
+            choiceTitle: 'choiceTitle 3',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 3'
           },
           {
-            choiceTitle: 'choiceTitle4',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription2 sdifjlksdjfksdjfkdsjfk'
+            choiceTitle: 'choiceTitle 4',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 4'
+          },
+          {
+            choiceTitle: 'choiceTitle 5',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 5'
           }
         ]
       },
@@ -78,29 +78,29 @@ export class CategoriesService {
         categoryTitle: 'category2',
         categoryChoices: [
           {
-            choiceTitle: 'choiceTitle5',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription5'
+            choiceTitle: 'choiceTitle 5',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 5'
           },
           {
-            choiceTitle: 'choiceTitle6',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription6'
+            choiceTitle: 'choiceTitle 6',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 6'
           },
           {
-            choiceTitle: 'choiceTitle7',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription7'
+            choiceTitle: 'choiceTitle 7',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 7'
           },
           {
-            choiceTitle: 'choiceTitle1',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription1'
+            choiceTitle: 'choiceTitle 8',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 8'
           },
           {
-            choiceTitle: 'choiceTitle2',
-            choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
-            choiceDescription: 'choiceDescription2'
+            choiceTitle: 'choiceTitle 9',
+            choiceImg: '../../assets/example.jpg',
+            choiceDescription: 'choiceDescription 9'
           }
         ]
       }

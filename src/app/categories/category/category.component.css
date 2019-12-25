@@ -49,6 +49,8 @@ hr {
 h1 {
     padding: 5px 0 0 5px;
     cursor: pointer;
+    background-color: #565656;
+    border-bottom: 2px solid black;
 }
 
 
