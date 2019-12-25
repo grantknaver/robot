@@ -10,18 +10,18 @@ import { Choice } from '../../../models/choice.model';
 })
 export class ChoiceComponent implements OnInit {
    @Input() choiceInfo: any;
-  //  @Input() choiceSelected: number;
-  //  choice: Choice;
-  //  choiceTitle: string;
-  //  choiceDescription: string;
-  //  choiceImg: string;
+   @Input() choiceSelected: number;
+   choice: Choice;
+   choiceTitle: string;
+   choiceDescription: string;
+   choiceImg: string;
 
   constructor() {}
 
   ngOnInit() {}
 
-  // useChoice() {
-  //   if (this.choiceInfo.choiceIndex === this.choiceSelected) {
-  //   }
-  // }
+  useChoice() {
+    if (this.choiceInfo.choiceIndex === this.choiceSelected) {
+    }
+  }
 }

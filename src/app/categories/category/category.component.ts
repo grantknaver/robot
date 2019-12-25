@@ -16,18 +16,18 @@ export class CategoryComponent implements OnInit {
   @Input() category: Category;
   @Input() selected: number;
   @Input() currentCategory: number;
-  // categoryTitle: string;
-  // choices: Choice[];
-  // expanded: boolean;
-  // choiceSelected: number;
+  categoryTitle: string;
+  choices: Choice[];
+  expanded: boolean;
+  choiceSelected: number;
 
   constructor(private categoriesService: CategoriesService) { }
 
   ngOnInit() {
     // this.expanded = false;
-    // this.categoryTitle = this.category.categoryTitle;
-    // this.choices = this.category.categoryChoices;
-    // this.choiceSelected = 0;
+    this.categoryTitle = this.category.categoryTitle;
+    this.choices = this.category.categoryChoices;
+    this.choiceSelected = 0;
     this.categoriesService.expandedArray.push({index: this.currentCategory, expanded: false});
   }
 
