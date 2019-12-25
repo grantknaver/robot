@@ -14,11 +14,27 @@
 
 <!--- CAROUSEL --->
 
+<div *ngIf="choiceInfo.choiceIndex !== 0" class="card notSelected" >
+  <div class="card-body">
+    <h5 class="card-title">{{previousInfo.choiceTitle}}</h5>
+    <p class="card-text">{{previousInfo.choiceDescription}}</p>
+    <img [src]="previousInfo.choiceImg" alt="">
+  </div>
+</div>
+
 <div class="card" >
   <div class="card-body">
     <h5 class="card-title">{{choiceInfo.choice.choiceTitle}}</h5>
     <p class="card-text">{{choiceInfo.choice.choiceDescription}}</p>
     <img [src]="choiceInfo.choice.choiceImg" alt="">
+  </div>
+</div>
+
+<div *ngIf="choiceInfo.choiceIndex !== choices.length -1 " class="card notSelected" >
+  <div class="card-body">
+    <h5 class="card-title">{{nextInfo.choiceTitle}}</h5>
+    <p class="card-text">{{nextInfo.choiceDescription}}</p>
+    <img [src]="nextInfo.choiceImg" alt="">
   </div>
 </div>
 

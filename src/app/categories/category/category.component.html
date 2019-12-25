@@ -18,18 +18,19 @@
 
     <ngb-carousel
     [showNavigationArrows]="true" 
-    [showNavigationIndicators]="true"
+    [showNavigationIndicators]="false"
     interval="10000"
     [keyboard]="true"
     [pauseOnHover]="true"
-    [wrap]="true"
-    [activeId]="'slideTwo'"
+    [wrap]="false"
+    [activeId]="2"
     *ngIf="categoriesService.expandedArray[currentCategory].expanded">
         <div *ngFor="let choice of choices, let i = index" >
-            <ng-template ngbSlide>
+            <ng-template ngbSlide [id]="i">
                 <app-choice 
-                [choiceInfo]="{ choice: choice, choiceIndex: i }"
-                [(choiceSelected)]="choiceSelected">
+                [choices]="choices"
+                [choiceInfo]="{ choice: choice, choiceIndex: i }">
+                <!-- [(choiceSelected)]="choiceSelected" -->
                 </app-choice>
             </ng-template> 
         </div>

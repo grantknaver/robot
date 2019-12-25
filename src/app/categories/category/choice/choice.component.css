@@ -30,6 +30,10 @@
   margin: 2vh 2vw;
 }
 
+.notSelected {
+  opacity: .5;
+}
+
 img {
   max-width: 100px;
   border-radius: 5px;

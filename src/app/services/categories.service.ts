@@ -47,27 +47,27 @@ export class CategoriesService {
         categoryTitle: 'category1',
         categoryChoices: [
           {
-            choiceTitle: 'choiceTitle1',
+            choiceTitle: 'choiceTitle',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
             choiceDescription: 'choiceDescription1 kjdsfjslfkjdslkfjslkdjflkdsjflkdsjflkdsjflkdsjf'
           },
           {
-            choiceTitle: 'choiceTitle2',
+            choiceTitle: 'choiceTitle1',
             choiceImg: '../../assets/example.jpg',
             choiceDescription: 'choiceDescription2 ksdjflkjdslfkjdslkfjdslkjflkdsjflkdsjflkdsjf'
           },
           {
-            choiceTitle: 'choiceTitle3',
+            choiceTitle: 'choiceTitle2',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
             choiceDescription: 'sdlkfjlksdjflksdjflksdjflkdsjflkdsjflkdsjflksjflksdfj'
           },
           {
-            choiceTitle: 'choiceTitle1',
+            choiceTitle: 'choiceTitle3',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
             choiceDescription: 'choiceDescription1 slkdfjlkdsjfjdslkfds sdfjlkdsjflkdsjflkdsjflkdsjf'
           },
           {
-            choiceTitle: 'choiceTitle2',
+            choiceTitle: 'choiceTitle4',
             choiceImg: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
             choiceDescription: 'choiceDescription2 sdifjlksdjfksdjfkdsjfk'
           }
