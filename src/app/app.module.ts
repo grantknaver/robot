@@ -7,7 +7,6 @@ import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './categories/category/category.component';
 import { ChoiceComponent } from './categories/category/choice/choice.component';
 import { CategoriesService } from '../app/services/categories.service';
-import { ChoiceStylingDirective } from './diretives/choice-border.directive';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -15,8 +14,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     CategoriesComponent,
     CategoryComponent,
-    ChoiceComponent,
-    ChoiceStylingDirective
+    ChoiceComponent
   ],
   imports: [
     BrowserModule,

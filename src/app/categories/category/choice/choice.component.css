@@ -2,23 +2,10 @@
   display: inline-block;
   width: 100%;
   height: 100%;
-  /* background-color: orange; */
   display: flex;
   justify-content: center;
   position: relative;
 }
-
-/* --- CUSTOM --- */
-
-/* .card {
-  display: flex;
-  z-index: 0;
-  cursor: pointer;
-  width: 100%;
-  background-color: black;
-} */
-
-/* --- CAROUSEL --- */
 
 .card {
   width: 50%;
@@ -49,6 +36,7 @@
 }
 
 .notSelected {
+  cursor: auto;
   opacity: .5;
 }
 
